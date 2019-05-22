@@ -1,0 +1,60 @@
+../../dataset/aligned/daiwei/dai_2.png 266 156 492 425
+../../dataset/aligned/daiwei/dai_2 copy.png 266 156 492 425
+../../dataset/aligned/daiwei/dai_4 copy.png 379 662 770 1143
+../../dataset/aligned/daiwei/dai_4.png 379 662 770 1143
+../../dataset/aligned/daiwei/dai_5 copy 2.png 666 424 765 538
+../../dataset/aligned/daiwei/dai_5 copy.png 666 424 765 538
+../../dataset/aligned/daiwei/dai_5.png 666 424 765 538
+../../dataset/aligned/daiwei/dai_2 copy 2.png 266 156 492 425
+../../dataset/aligned/daiwei/dai_1 copy.png 513 251 794 614
+../../dataset/aligned/daiwei/dai_1 copy 2.png 513 251 794 614
+../../dataset/aligned/daiwei/dai_4 copy 2.png 379 662 770 1143
+../../dataset/aligned/daiwei/dai_1.png 513 251 794 614
+../../dataset/aligned/kalena/k_1 copy.png 457 364 702 624
+../../dataset/aligned/kalena/k_1.png 457 364 702 624
+../../dataset/aligned/kalena/k_2 copy 5.png
+../../dataset/aligned/kalena/k3.png 406 73 622 335
+../../dataset/aligned/kalena/k3 copy 3.png 406 73 622 335
+../../dataset/aligned/kalena/k_1 copy 2.png 457 364 702 624
+../../dataset/aligned/kalena/k_2.png
+../../dataset/aligned/kalena/k_1 copy 3.png 457 364 702 624
+../../dataset/aligned/kalena/k3 copy 2.png 406 73 622 335
+../../dataset/aligned/kalena/k_2 copy.png
+../../dataset/aligned/kalena/k_2 copy 4.png
+../../dataset/aligned/kalena/k3 copy 5.png 406 73 622 335
+../../dataset/aligned/kalena/k_1 copy 4.png 457 364 702 624
+../../dataset/aligned/kalena/k_2 copy 3.png
+../../dataset/aligned/kalena/k_2 copy 2.png
+../../dataset/aligned/kalena/k_1 copy 5.png 457 364 702 624
+../../dataset/aligned/kalena/k3 copy 4.png 406 73 622 335
+../../dataset/aligned/kalena/k3 copy.png 406 73 622 335
+../../dataset/aligned/kavan/a_1 2.png 259 307 742 971
+../../dataset/aligned/kavan/a3 3.png 287 378 629 789
+../../dataset/aligned/kavan/a3 2.png 287 378 629 789
+../../dataset/aligned/kavan/a_1 3.png 259 307 742 971
+../../dataset/aligned/kavan/a_1.png 259 307 742 971
+../../dataset/aligned/kavan/a3.png 287 378 629 789
+../../dataset/aligned/kavan/a_2 3.png 217 455 526 803
+../../dataset/aligned/kavan/a_2 3 copy.png 217 455 526 803
+../../dataset/aligned/kavan/a_2 2.png 217 455 526 803
+../../dataset/aligned/kavan/a_2.png 217 455 526 803
+../../dataset/aligned/kavan/a_1 3 copy.png 259 307 742 971
+../../dataset/aligned/kavan/a3 3 copy.png 287 378 629 789
+../../dataset/aligned/qingjun/q_3 copy 13.png 389 220 671 573
+../../dataset/aligned/qingjun/q_3 copy 12.png 389 220 671 573
+../../dataset/aligned/qingjun/q_3 copy 15.png 389 220 671 573
+../../dataset/aligned/qingjun/q_3 copy 6.png 389 220 671 573
+../../dataset/aligned/qingjun/q_3 copy 14.png 389 220 671 573
+../../dataset/aligned/qingjun/q_3 copy 7.png 389 220 671 573
+../../dataset/aligned/qingjun/q_3 copy 4.png 389 220 671 573
+../../dataset/aligned/qingjun/q_3 copy 17.png 389 220 671 573
+../../dataset/aligned/qingjun/q_3.png 389 220 671 573
+../../dataset/aligned/qingjun/q_3 copy 8.png 389 220 671 573
+../../dataset/aligned/qingjun/q_3 copy 9.png 389 220 671 573
+../../dataset/aligned/qingjun/q_3 copy 5.png 389 220 671 573
+../../dataset/aligned/qingjun/q_3 copy 16.png 389 220 671 573
+../../dataset/aligned/qingjun/q_3 copy.png 389 220 671 573
+../../dataset/aligned/qingjun/q_3 copy 11.png 389 220 671 573
+../../dataset/aligned/qingjun/q_3 copy 2.png 389 220 671 573
+../../dataset/aligned/qingjun/q_3 copy 10.png 389 220 671 573
+../../dataset/aligned/qingjun/q_3 copy 3.png 389 220 671 573

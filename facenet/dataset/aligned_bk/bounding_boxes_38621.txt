@@ -1,0 +1,6 @@
+../../dataset/aligned/kalena/k_2 copy 5.png
+../../dataset/aligned/kalena/k_2.png
+../../dataset/aligned/kalena/k_2 copy.png
+../../dataset/aligned/kalena/k_2 copy 4.png
+../../dataset/aligned/kalena/k_2 copy 3.png
+../../dataset/aligned/kalena/k_2 copy 2.png
