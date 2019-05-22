@@ -1,4 +1,6 @@
 from scipy import misc
+import imageio
+from PIL import Image
 import tensorflow as tf
 import numpy as np
 import detect_face
@@ -17,7 +19,7 @@ class PreProcessor():
             self.factor = 0.709 # scale factor
 
     def align(self,image_path, margin=44, image_size=160):
-        img = misc.imread(image_path)
+        img = imageio.imread(image_path)
         img = img[:,:,0:3]
         bounding_boxes, _ = detect_face.detect_face(img, self.minsize, self.pnet, self.rnet, self.onet, self.threshold, self.factor)
         nrof_faces = bounding_boxes.shape[0]
@@ -41,6 +43,7 @@ class PreProcessor():
         bb[2] = np.minimum(det[2]+margin/2, img_size[1])
         bb[3] = np.minimum(det[3]+margin/2, img_size[0])
         cropped = img[bb[1]:bb[3],bb[0]:bb[2],:]
-        scaled = misc.imresize(cropped, (image_size, image_size), interp='bilinear')
-        misc.imsave("temp.png", scaled)
+        # scaled = misc.imresize(cropped, (image_size, image_size), interp='bilinear')
+        scaled = np.array(Image.fromarray(cropped).resize((image_size, image_size)))
+        imageio.imsave("temp.png", scaled)
         return bb

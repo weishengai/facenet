@@ -12,14 +12,14 @@ class Classify():
     def __init__(self):
         tf.logging.set_verbosity(tf.logging.ERROR)
         self.sess = tf.Session().__enter__()
-        self.load_model("./model/")
+        self.load_model("../facenet/src/models/20180402-114759")
         self.images_placeholder = tf.get_default_graph().get_tensor_by_name("input:0")
         self.embeddings = tf.get_default_graph().get_tensor_by_name("embeddings:0")
         self.phase_train_placeholder = tf.get_default_graph().get_tensor_by_name("phase_train:0")
         self.embedding_size = self.embeddings.get_shape()[1]
         self.emb_array = np.zeros((1, self.embedding_size))
 
-        classifier_filename_exp = os.path.expanduser("classifier.pk")
+        classifier_filename_exp = os.path.expanduser("y_classifier.pkl")
         with open(classifier_filename_exp, 'rb') as infile:
             (self.model, self.class_names) = pickle.load(infile)
 
@@ -33,7 +33,7 @@ class Classify():
         predictions = self.model.predict_proba(self.emb_array)
         best_class_indices = np.argmax(predictions, axis=1)
         best_class_probabilities = predictions[np.arange(len(best_class_indices)), best_class_indices]
-        
+        print("Prob: ", best_class_probabilities)
         if best_class_probabilities[0] < 0.8:
             return "Unknown face"
         else:
